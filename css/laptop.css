@@ -307,6 +307,7 @@ h3 {
   padding-bottom: 30px;
   gap: 40px;
   width: 100%;
+  grid-template-columns: repeat(2, 1fr);
 }
 .certificate-row-2 {
   grid-template-columns: 1fr 1fr;

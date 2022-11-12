@@ -23,7 +23,7 @@
   }
   /* Certificate section */
   .grid-container--3 {
-    grid-template-columns: 1fr 1fr;
+    display: grid;
     column-gap: 10px;
     padding-left: 0px;
     padding-right: 20px;
@@ -37,29 +37,22 @@
     display: grid;
     padding-right: 0px;
   }
-  .section-certificate-1 > img {
-    width: 100%;
-  }
   .section-certificate-2 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     width: 100%;
     display: grid;
   }
-  .section-certificate-2 > img {
+  .certificate-row-2 {
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
   }
   .section-certificate-3 {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
     width: 100%;
     display: grid;
-    grid-column: 1/-1;
-    grid-row: 2/3;
-    border-top: 2px solid #d6c08d;
   }
-  .section-certificate-3 > img {
-    width: 50%;
+  .certificate .img-cert {
+    width: 100%;
   }
   h3 {
     margin-left: 20px;
